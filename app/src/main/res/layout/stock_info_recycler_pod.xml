@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/Black"
+    android:layout_height="wrap_content"
+    android:id="@+id/StockPodParentLayout">
+    <!-- Daniel, DO NOT CHANGE THE HEIGHT OF ANYTHING-->
+    <!-- It is supposed to be a small box-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testTicker"
+        android:id="@+id/tickerSymbol"
+        style="@style/defaultText"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+</RelativeLayout>

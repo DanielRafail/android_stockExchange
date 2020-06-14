@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/Black"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".LoanCalculator.ResultActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/release_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="1dp"
+        android:layout_width="1dp">
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <Button
+            android:layout_height = "match_parent"
+            android:layout_width= "0dp"
+            android:layout_weight = "0.2"
+            android:gravity = "center"
+            android:onClick="sendEmail"
+            android:text="@string/email"
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/Row1Col1"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row1Col2"
+            android:text="@string/optionAHead"
+            android:onClick="showOptionAToast"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row1Col3"
+            android:text="@string/optionBHead"
+            android:onClick="showOptionBToast"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row1Col4"
+            android:text="@string/optionCHead"
+            android:onClick="showOptionCToast"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row2Col1"
+            android:text="@string/time"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row2Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row2Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row2Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row3Col1"
+            android:text="@string/original"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row3Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row3Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row3Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row4Col1"
+            android:text="@string/interest"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row4Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row4Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row4Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row5Col1"
+            android:text="@string/total"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row5Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row5Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row5Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row6Col1"
+            android:text="@string/amountSaved"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row6Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row6Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row6Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/Row7Col1"
+            android:text="@string/timeSaved"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row7Col2"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row7Col3"
+            style="@style/calculatorAnswer" />
+        <TextView
+            android:id="@+id/Row7Col4"
+            style="@style/calculatorAnswer" />
+    </TableRow>
+
+
+
+</TableLayout>

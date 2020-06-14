@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:padding="5dp"
+    android:background="#000000"
+    android:layout_gravity="center">
+    <!-- Daniel, DO NOT CHANGE THE HEIGHT OR WIDTH OF ANYTHING-->
+
+<TextView
+    android:id="@+id/x"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_alignParentEnd="true"
+    android:text="@string/x"
+    android:textSize="25sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#ff0015"
+    />
+
+    <TextView
+        android:id="@+id/tickerSymbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x"
+        android:layout_marginTop="20dp"
+        android:text="@string/symbol"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tickerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tickerSymbol"
+        android:layout_marginTop="10dp"
+        android:text="@string/Tickername"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tickerPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tickerName"
+        android:layout_marginTop="10dp"
+        android:text="@string/Tickerprice"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tickerCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tickerPrice"
+        android:layout_marginTop="10dp"
+        android:text="@string/Tickercurrency"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tickerExchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tickerCurrency"
+        android:layout_marginTop="10dp"
+        android:text="@string/Tickerstock_exchange"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

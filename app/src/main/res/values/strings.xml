@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="email">Send Email</string>
+    <string name="app_name" tools:ignore="ExtraTranslation">FEHighwayToHell</string>
+    <string name="firstNameText">First Name : </string>
+    <string name="lastNameText">Last Name : </string>
+    <string name="emailText">Email Address : </string>
+    <string name="passwordText">Password : </string>
+    <string name="prefCurrencyText">Preferred Currency : </string>
+    <string name="prefStockText">Preferred Stock: </string>
+    <string name="lastUpdateText">Last Updated : </string>
+    <string name="settingsButton">Accept</string>
+    <string name="firstNameHint"></string>
+    <string name="lastNameHint"></string>
+    <string name="emailHint"></string>
+    <string name="dateInput"></string>
+
+    <string name="CAD">CAD</string>
+    <string name="USD">USD</string>
+    <string name="BTC">BTC</string>
+
+    <string name="TSX">TSX</string>
+    <string name="NYSE">NYSE</string>
+    <string name="NASDAQ">NASDAQ</string>
+
+    <string name="error">One or multiple of your parameters are invalid</string>
+
+    <string name="about">About</string>
+    <string name="aboutInfo">This was the last and final project given to the 5th Semester Student in Computer Science at Dawson College (420-518-DW MOBILE SOFTWARE DEVELOPMENT). This project was worked on by Daniel Rafail, George Ilias, Kajal Bordhon, and Nick Trinh
+    Daniel worked on the UI, Settings, MainActivity, About. George worked on Notes and Credit/Loan Calculator. Kajal worked on Stock Quote and Stock Portfolio, Nick worked on Stock Quote.
+    The project was done in around one week. The project was based around making an application which allowed the user to interact with a Stock Market simulator, while also giving him tools to ease him in his activity</string>
+    <string name="blurb">Project done by 5th Semester Students for an Android Application course</string>
+    <string name="hint">Hint</string>
+    <string name="source">Source</string>
+    <string name="insertTicker">ticker1,ticker2,ticker3</string>
+    <string name="addTickers">Add Tickers</string>
+    <string name="testTicker">Ticker</string>
+    <string name="testDataTickers">AAPL,MSFT,HSBA.L</string>
+    <string name="x">X</string>
+    <string name="symbol">Symbol:\u0020</string>
+    <string name="Tickername">Name:\u0020</string>
+    <string name="Tickerprice">Price:\u0020</string>
+    <string name="Tickercurrency">Currency:\u0020</string>
+    <string name="Tickerstock_exchange">Stock Exchange:\u0020</string>
+
+    <string name="convert">Convert</string>
+    <string name="convertFrom">From</string>
+    <string name="convertTo">To</string>
+
+    <string name="buy">Buy</string>
+    <string name="subject">Subject</string>
+    <string name="AddNote">Add Note</string>
+    <string name="note">Note Text</string>
+    <string name="createNote">Create Note</string>
+    <string name="updateNote">Update Note</string>
+
+    <string name="ok_button">Alright, I will connect to the Internet now…</string>
+    <string name="no_internet_connection">You are currently not connected to the Internet. Please connect your device to the Internet to use this feature.</string>
+
+    <string name="balance">Credit Card Balance: </string>
+    <string name="rate">Annual Interest Rate: </string>
+    <string name="minMonth">Minimum Monthly Amount</string>
+    <string name="minMonthPercentage">Minimum Monthly Percentage</string>
+    <string name="additional">Additional Monthly Payment</string>
+    <string name="fixed">Fixed Monthly Amount: </string>
+    <string name="info">Credit Card Information</string>
+    <string name="optionA">Option A: What if you only make the minimum payment each month?</string>
+    <string name="optionB">Option B: What if you make the minimum payment plus an additional amount each month?</string>
+    <string name="optionC">Option C: What if you pay a fixed amount each month?</string>
+
+    <string name="optionAHead">Option A</string>
+    <string name="optionBHead">Option B</string>
+    <string name="optionCHead">Option C</string>
+
+    <string name="invalid">Invalid Parameters entered</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="time">Time to pay off</string>
+    <string name="original">Original balance</string>
+    <string name="interest">Interest paid</string>
+    <string name="total">Total paid</string>
+    <string name="amountSaved">Amount Saved</string>
+    <string name="timeSaved">Time Saved</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="user">Name : </string>
+    <string name="money">Money : </string>
+    <string name="created">Created on: </string>
+    <string name="emailHeader">Here are my results from the locan Calculator:</string>
+    <string name="wOptionA">With option A: Time to pay off : </string>
+    <string name="wOptionB">With option B: Time to pay off : </string>
+    <string name="wOptionC">With option A: Time to pay off : </string>
+    <string name="wBalance">Original balance : </string>
+    <string name="wTotal">Total paid :</string>
+    <string name="wAmount">Amount Saved :</string>
+    <string name="wTime">Time saved : </string>
+
+    <string name="input">Name of Contact</string>
+
+    <string name="internetoast">Something went wrong</string>
+    <string name ="portfoliotoast">Something went wrong, could not connect to stock portfolio</string>
+
+    <string name="sellStocks">Amount you want to sell: </string>
+    <string name="sellbutton">Sell</string>
+    <string name="sell">stocks you want to sell:</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@color/Black">
+
+<TableRow
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="100">
+
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/image"
+        android:onClick="gotoAbout"
+        android:src="@drawable/logo" />
+</TableRow>
+<TableRow
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="20">
+    <ImageView
+        style="@style/image"
+        android:src="@drawable/exchange"
+        android:id="@+id/foreign"
+        android:onClick="gotoForeign" />
+    <ImageView
+        android:src="@drawable/hints"
+        android:id="@+id/hints"
+        android:onClick="gotoHints"
+        style="@style/image" />
+    <ImageView
+        android:id="@+id/quote"
+        android:onClick="gotoQuote"
+        android:src="@drawable/quote"
+        style="@style/image"/>
+</TableRow>
+<TableRow
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="20">
+    <ImageView
+        android:src="@drawable/notes"
+        android:id="@+id/notes"
+        android:onClick="gotoNotes"
+        style="@style/image" />
+    <ImageView
+        android:src="@drawable/calculator"
+        android:id="@+id/calculator"
+        android:onClick="gotoCalculator"
+        style="@style/image" />
+    <ImageView
+        android:src="@drawable/portfolio"
+        android:id="@+id/portfolio"
+        android:onClick="gotoPortfolio"
+        style="@style/image" />
+</TableRow>
+<TableRow
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="2">
+    <TextView
+        android:id="@+id/username"
+        style="@style/defaultText"
+        android:layout_weight=".2"
+        android:layout_width="0dp"
+        android:textSize="50sp"
+        android:text="hey"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+</TableRow>
+</TableLayout>

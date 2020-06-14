@@ -1,0 +1,15 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:showAsAction="ifRoom"
+        android:title="about"/>
+    <item
+        android:id="@+id/dawson"
+        android:showAsAction="ifRoom"
+        android:title="dawson"/>
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="ifRoom"
+        android:title="settings"/>
+</menu>

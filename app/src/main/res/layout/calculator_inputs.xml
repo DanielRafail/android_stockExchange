@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/Black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/calculatorMain"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".LoanCalculator.CalculatorActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/info"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    style="@style/calculator"
+                    android:layout_width="match_parent" />
+
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/balance"
+                        style="@style/calculator"/>
+
+                    <EditText
+                        android:text="1000.00"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/balance"
+                        style="@style/calculator"/>
+
+                    <TextView
+                        android:text="@string/rate"
+                        style="@style/calculator"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:text="18"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/rate"
+                            style="@style/calculator"
+                            android:layout_width="0dp"
+                            android:layout_weight="75"/>
+
+                        <TextView
+                            android:text="%"
+                            style="@style/calculator"
+                            android:layout_width="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/optionA"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    style="@style/calculator"
+                    android:layout_width="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/minMonth"
+                        style="@style/calculator"/>
+
+                    <EditText
+                        android:text="10.00"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/minMonth"
+                        style="@style/calculator" />
+
+                    <TextView
+                        android:text="@string/minMonthPercentage"
+                        style="@style/calculator" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:text="3.00"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/monthPercentage"
+                            style="@style/calculator"
+                            android:layout_width="0dp"
+                            android:layout_weight="75"/>
+
+                        <TextView
+                            android:text="%"
+                            style="@style/calculator"
+                            android:layout_width="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/optionB"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    style="@style/calculator"
+                    android:layout_width="match_parent" />
+
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/minMonth"
+                        style="@style/calculator"/>
+
+                    <EditText
+                        android:text="30.00"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/minMonthOptionB"
+                        style="@style/calculator" />
+
+                    <TextView
+                        android:text="@string/additional"
+                        style="@style/calculator" />
+
+                    <EditText
+                        android:text="5.00"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/additional"
+                        style="@style/calculator" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/optionC"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    style="@style/calculator"
+                    android:layout_width="match_parent" />
+
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/fixed"
+                        style="@style/calculator"/>
+
+                    <EditText
+                        android:text="100.00"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/fixedAmount"
+                        style="@style/calculator"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/submit"
+                android:text="@string/submit"
+                android:onClick="onSubmitClick"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+

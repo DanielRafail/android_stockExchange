@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/Black"
+    android:layout_height="match_parent">
+
+    <EditText
+        style="@style/defaultText"
+        android:id="@+id/tickers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/insertTicker"
+        android:text="@string/testDataTickers"/>
+
+    <Button
+        android:id="@+id/addTickers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/addTickers"
+        android:layout_below="@id/tickers"
+        android:onClick="loadTickers"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ticker_recycler_view"
+        android:layout_below="@id/addTickers">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
